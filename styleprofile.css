@@ -1,0 +1,57 @@
+body {
+    font-family: Arial;
+    margin-top: 100px;
+    position: relative;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-color: #2F5A78;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+section {
+    width: auto;
+    color: white;
+    background-color: #2F5A78;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: large;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 60%);
+}
+
+a {
+    color :white;
+}
+
+
+#navKalkulator {
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #203E54;
+    border-radius: 5px;
+    position: fixed;
+    top: 9px;
+    left: 30px;
+}
+
+#navKalkulator:hover {
+    background-color: #203E54;
+    cursor: pointer;
+}

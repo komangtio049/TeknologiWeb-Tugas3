@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aplikasi Perhitungan Deret Fibonacci dan Volume Balok</title>
+        <link rel="stylesheet" type="text/css" href="stylekalkulator.css">
+        <style>
+            @media screen and (max-width:1080px) {
+                h1 {
+                    margin-left: 125px;
+                }
+
+                #navProfile {
+                    margin-top: 2%;
+                }
+                body {
+                    margin-top: 120px;
+                }
+            }
+
+            @media screen and (max-width:814px) {
+                #navProfile {
+                    margin-top: 5%;
+                }
+
+                body {
+                    margin-top: 150px;
+                }
+
+                #hasilPerhitungan {
+                    font-size: 20px;
+                }
+            }
+
+            @media screen and (max-width:531px) {
+                body {
+                    margin-top: 180px;
+                }
+
+                #navProfile {
+                    margin-top: 10%;
+                }
+
+                #hasilPerhitungan {
+                    font-size: 15px;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <p id="navProfile"> Profile</p>
+            </a>
+            <h1>Kalkulator Deret Fibonacci dan Volume Balok</h1>
+        </header>
+        <section>
+            <label for="angka">Masukkan Angka:</label>
+            <input type="number" id="angka"><br>
+            <button onclick="hitungFibonacci()">Hitung Deret Fibonacci</button><br>
+            <p id="garis">   </p>
+        </section>
+        <section>
+            <label for="panjang">Panjang:</label>
+            <input type="number" id="panjang">
+            <label for="lebar">Lebar:</label>
+            <input type="number" id="lebar">
+            <label for="tinggi">Tinggi:</label>
+            <input type="number" id="tinggi"><br>
+            <button onclick="hitungVolumeBalok()">Hitung Volume Balok</button><br>
+            <p id="garis">   </p>
+        </section>
+        <section>
+            <h2>Hasil Perhitungan</h2>
+            <div id="hasilPerhitungan"></div>
+            <script src="script.js"></script>
+            <script src="bangunruangbalok.js"></script>
+        </section>
+    </body>
+</html>

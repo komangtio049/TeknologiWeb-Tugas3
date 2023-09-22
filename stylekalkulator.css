@@ -1,0 +1,83 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 100%;
+    background-color: #2F5A78;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: medium;
+    background-color: #2F5A78;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #203E54;
+}
+
+a {
+    color :white;
+}
+
+#panjang {
+    margin-right: 20px;
+}
+
+#lebar {
+    margin-right: 20px;
+}
+
+#garis {
+    border-bottom: 3px solid #2F5A78;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#hasilPerhitungan {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#navProfile {
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #203E54;
+    border-radius: 5px;
+    position: fixed;
+    top: 9px;
+    left: 30px;
+}
+
+#navProfile:hover {
+    background-color: #203E54;
+    cursor: pointer;
+}
